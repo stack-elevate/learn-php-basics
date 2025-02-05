@@ -1,0 +1,24 @@
+{
+    "name": "jcandan/php-coderoad-tutorial",
+    "require-dev": {
+        "nikeee/phpunit-tap": "^2.0"
+    },
+    "scripts": {
+        "test": "phpunit"
+    },
+    "require": {
+        "cweagans/composer-patches": "^1.7"
+    },
+    "config": {
+        "allow-plugins": {
+            "cweagans/composer-patches": true
+        }
+    },
+    "extra": {
+        "patches": {
+            "nikeee/phpunit-tap": {
+                "Outputs both TAP and default PHPUnit formatting": "https://patch-diff.githubusercontent.com/raw/nikeee/phpunit-tap/pull/32.patch"
+            }
+        }
+    }
+}
