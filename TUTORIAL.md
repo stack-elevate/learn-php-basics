@@ -2,7 +2,7 @@
 
 This is an introduction to your tutorial. It will show up on the first page when your tutorial is started.
 
-## 1. Create index.html
+## 1. Create index.html Updated
 
 > Optional summary for Level 1
 
