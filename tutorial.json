@@ -1,5 +1,5 @@
 {
-  "id": "php-coderoad-tutorial",
+  "id": "learn-php-basics",
   "version": "0.1.0",
   "summary": {
     "title": "Introduction",
@@ -9,7 +9,7 @@
     "testRunner": {
       "command": "composer test",
       "args": {
-        "tap": "--extensions=nikeee\\PhpunitTap\\TapExtension"
+        "tap": ""
       },
       "directory": ".stack-elevate"
     },
