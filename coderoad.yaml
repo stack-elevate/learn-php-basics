@@ -3,6 +3,8 @@ id: php-coderoad-tutorial
 config:
   testRunner:
     command: composer test
+    args:
+      tap: --extensions=nikeee\PhpunitTap\TapExtension
     directory: .stack-elevate
   setup:
     commands:
