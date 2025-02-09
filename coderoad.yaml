@@ -1,4 +1,5 @@
 version: '0.1.0'
+id: php-coderoad-tutorial
 config:
   testRunner:
     command: composer test
