@@ -1,0 +1,18 @@
+version: '0.1.0'
+config:
+  testRunner:
+    command: composer test
+    directory: .stack-elevate
+  setup:
+    commands:
+      - cd .stack-elevate && composer install
+  repo:
+    uri: https://github.com/stack-elevate/learn-php-basics
+    branch: v0.1.0
+  dependencies:
+    - name: php
+      version: '>=8.2'
+levels:
+  - id: '1'
+    steps:
+      - id: '1.1'
