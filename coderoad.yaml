@@ -4,7 +4,7 @@ config:
   testRunner:
     command: composer test
     args:
-      tap: --extensions=nikeee\PhpunitTap\TapExtension
+      tap: ''
     directory: .stack-elevate
   setup:
     commands:
