@@ -1,0 +1,63 @@
+{
+  "id": "php-coderoad-tutorial",
+  "version": "0.1.0",
+  "summary": {
+    "title": "Introduction",
+    "description": "This is an introduction to your tutorial. It will show up on the first page when your tutorial is started."
+  },
+  "config": {
+    "testRunner": {
+      "command": "composer test",
+      "args": {
+        "tap": "--extensions=nikeee\\PhpunitTap\\TapExtension"
+      },
+      "directory": ".stack-elevate"
+    },
+    "setup": {
+      "commands": [
+        "cd .stack-elevate && composer install"
+      ],
+      "commits": [
+        "07550434d1e456369ea3c30a60f12fa67b6489ef"
+      ]
+    },
+    "repo": {
+      "uri": "https://github.com/stack-elevate/learn-php-basics",
+      "branch": "v0.1.0"
+    },
+    "dependencies": [
+      {
+        "name": "php",
+        "version": ">=8.2"
+      }
+    ]
+  },
+  "levels": [
+    {
+      "id": "1",
+      "title": "Create index.html",
+      "summary": "Optional summary for Level 1",
+      "content": "Here's where you can put a description, examples, and instructions for the lesson.",
+      "steps": [
+        {
+          "id": "1.1",
+          "content": "This is the test text. Create an `index.html` file to pass this lesson.",
+          "hints": [
+            "This is a hint to help people through the test",
+            "Second hint for 1.1, don't worry if the hints don't show up yet"
+          ],
+          "setup": {
+            "commits": [
+              "9a92c16979115b752e46935afee9bafa3bc800ac"
+            ]
+          },
+          "solution": {
+            "commits": [
+              "d883676c451d23e30941a5f534f523a62dd822a3"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
